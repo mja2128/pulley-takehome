@@ -1,0 +1,12 @@
+{
+  "name": "pulley-takehome",
+  "version": "1.0.0",
+  "dependencies": {
+    "@types/cli-progress": "^3.11.0",
+    "cli-progress": "^3.12.0",
+    "typescript": "^5.0.3"
+  },
+  "scripts": {
+    "start": "tsc && node dist/trackRequests.js"
+  }
+}
